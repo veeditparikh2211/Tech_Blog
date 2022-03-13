@@ -1,0 +1,36 @@
+{{!-- <article class="post">
+  <div class="title">
+    <a href="{{post_url}}" target="_blank">{{title}}</a>
+    <span>({{format_url post_url}})</span>
+  </div>
+  <div class="meta">
+    {{vote_count}} {{format_plural "point" vote_count}} by {{user.username}} on {{format_date created_at}}
+    |
+    <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+  </div>
+</article> --}}
+<div class="card mb-6">
+  <header class "card-header card-header-title has background-grey-lighter">
+
+    <div class="column">
+      <p class="has-text-primary-light"></p>
+      <a href="{{post_url}}" target="_blank">{{title}}</a>
+    </div>
+
+    <div class="column">
+      <span>({{format_url post_url}})</span>
+    </div>
+  </header>
+
+  <div class="card-content">
+    <div class="link has text-justified">
+    {{vote_count}} {{format_plural "point" vote_count}} by {{user.username}} 
+    </div>
+    <div class="is-pulled-right">
+      {{user.username}} | 
+      <a href ="https://github.com/{{user.username}}" target="blank"><i class="fab fa-github"></i></a> | 
+{{format_date created_at}} |
+    <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a> 
+  </div>
+</div>
+</div>
