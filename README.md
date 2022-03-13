@@ -14,11 +14,11 @@ sequelize
 handlebars
 
 ## Github repo link
-
+https://veeditparikh2211.github.io/Tech_Blog/
 
 ## Application
 
-![](images/Screenshot.PNG)
+![](/public/images/Screenshot.png)
 ## Contribution
 
 Made by Veedit Parikh
