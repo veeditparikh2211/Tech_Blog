@@ -16,6 +16,11 @@ handlebars
 ## Github repo link
 https://veeditparikh2211.github.io/Tech_Blog/
 
+## Video
+
+![](/public/images/techblog.gif)
+
+
 ## Application
 
 ![](/public/images/Screenshot.png)
